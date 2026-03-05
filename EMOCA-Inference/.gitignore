@@ -1,0 +1,28 @@
+# Model weights and large assets (do not commit)
+assets/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build/
+
+# Output data
+demo/
+output/
+*.pkl
+*.npy
+*.obj
+
+# Notebooks
+*.ipynb
+
+# Environment
+.env
+
+# Logs
+wandb/
+*.log
